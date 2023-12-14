@@ -1,0 +1,15 @@
+POST localhost:8080/loans
+Content-Type: application/json
+
+{
+  "barcode": "1589365"
+}
+
+###
+# get loan by id
+GET localhost:8080/loans/1
+###
+# get active loans
+GET localhost:8080/loans
+###
+

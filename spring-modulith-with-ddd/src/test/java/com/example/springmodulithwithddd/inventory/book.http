@@ -1,0 +1,20 @@
+# get all books with issued status
+GET http://localhost:8080/books
+###
+# get book by id
+GET http://localhost:8080/books/1
+###
+# put book into inventory
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "test",
+  "inventoryNumber": "123",
+  "isbn": "777",
+  "author": "unknown"
+}
+
+###
+
+
